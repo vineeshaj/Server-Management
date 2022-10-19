@@ -1,20 +1,7 @@
 version: "3.8"
 services:
 
-  postgres:
-    build: 
-      context: ./database          
-    container_name: postgres
-    image: vineeshajasti/postgres_v_01:postgres_V_1.0
-    restart: always
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: root
-      POSTGRES_DB: smp
-    ports:
-      - "5432:5432"  
-    networks:
-      - default
+  
 
   go:
     container_name: go
@@ -22,8 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    depends_on:
-      - "postgres"
+ 
     restart: always
     ports:
       - "5002:5002"
