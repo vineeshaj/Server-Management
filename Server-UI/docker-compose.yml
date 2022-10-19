@@ -1,0 +1,17 @@
+version: "3"
+services:
+  react-app:
+    build: .
+    image: mani12gs/ui:react
+    container_name: mani
+
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - 3000:3000
+
+    networks:
+      - default
+
+    restart: always

@@ -1,0 +1,48 @@
+.addUserBtn {
+    display: flex !important;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    justify-content: flex-end;
+  }
+.addUserBtnStyle {
+    border: 1px solid #1a73e8 !important;
+    display: flex !important;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    justify-content: flex-end;
+    background-color: #fff !important;
+    color: #1a73e8 !important;
+    margin-bottom: 10px;
+  }
+  .addUserBtnStyle:hover {
+    background-color: rgb(237, 237, 237) !important;
+    color: #1763c6 !important;
+  }
+  
+
+  .adduserheaderline {
+    border: 1px solid rgb(198, 198, 198);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 12px 14px;
+    border-top: 8px solid #1a73e8;
+  }
+
+  .usersubcanbtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .edituserheaderline {
+    border: 1px solid rgb(198, 198, 198);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 2px 14px;
+    /* margin-bottom: 10px; */
+    /* border-top-color: #3f51b5; */
+    border-top: 8px solid #1a73e8;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+  }
